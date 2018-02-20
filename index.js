@@ -70,6 +70,8 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+  var keys = "";
+  var key = "";
   for(var i = 0; i < cart.length; i++){
     keys = Object.keys(cart[i]);
     key = keys[0];
